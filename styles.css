@@ -1,0 +1,103 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    text-align: center;
+    height: 150px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    font-size: 40px;
+    color: #033FD4;
+}
+
+main{
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+main h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    transition: 0.2s;
+    text-shadow: 30px black;
+}
+
+main h1:hover{
+    color: #033FD4;
+    font-size: 74px;
+    text-shadow: 50px black;
+    transition: 0.5s;
+}
+
+main p{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.maps{
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+figure{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+figure:hover{
+    font-size: 30px;
+    transition: 0.5s;
+    color: #033FD4;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
